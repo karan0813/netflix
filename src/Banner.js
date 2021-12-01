@@ -15,7 +15,6 @@ const Benner = () => {
       getdata();
   }, [])
 
-console.log(movie);
 
     return (
         <header className="banner"
