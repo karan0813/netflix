@@ -2,15 +2,15 @@
 import './App.css';
 import Row from "./Row"
 import request from "./request"
-import Benner from './Benner';
+import Banner from './Banner';
+import Nav from './Nav';
 
 function App() {
 
   return (
     <div className="App">
-      {/* navbar */}
-      {/* banner */}
-      <Benner/>
+      <Nav/>
+      <Banner/>
       <Row
         tittle="NETFILX ORIGINALS"
         fetchUrl={request.fetchNetfilxOriginals}

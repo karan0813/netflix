@@ -4,7 +4,7 @@ import axios from "./axios"
 import "./banner.css"
 
 
-const Benner = () => {
+const Banner = () => {
     const [movie, setmovie] = useState([]);
 
   useEffect(() => {
@@ -36,9 +36,10 @@ const Benner = () => {
                 <h1 className="banner_discription">{ movie?.overview}</h1>
                   {/* discription */}
             </div>
+            <div className="banner_blackshadow"></div>
            
         </header>
     )
 }
 
-export default Benner
+export default Banner

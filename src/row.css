@@ -1,6 +1,9 @@
 .row{
     margin-left: 20px;
+    color: white;
+    -webkit-overflow-scrolling: touch;
 }
+
 .row_posters{
     display: flex;
     overflow-y: hidden;
